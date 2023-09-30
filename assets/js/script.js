@@ -20,7 +20,7 @@ let isPlay = false;
 
 function enableScroll() {
     localStorage.setItem('open', "true");
-//    hero.style.display= "none";  
+   hero.style.display= "none";  
     body.classList.remove("noscroll");
     playAudio();
           
@@ -50,7 +50,7 @@ audioIcon.onclick = function () {
 
 if(localStorage.getItem("open")){
     body.classList.remove("noscroll");
-//    hero.style.display= "none"; 
+   hero.style.display= "none"; 
    playAudio(); 
 
 }

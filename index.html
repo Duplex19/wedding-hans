@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
   </head>
-  <body id="body"   >
+  <body id="body" class="noscroll"  >
 <div id="hero" >
 <section  class="hero  w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center  text-white">
     <main >
@@ -403,7 +403,10 @@
     <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({duration: 2000});
+      AOS.init({
+        duration: 2000,
+        once: true
+      });
     </script>
         
           
