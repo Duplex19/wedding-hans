@@ -73,10 +73,7 @@ body {
     backdrop-filter: blur(4px);
 }
 
-.my-nav .offcanvas {
-    height: 100vh;
-    /* margin-right: -130%; */
-}
+
 .my-nav .navbar-brand,
 .my-nav .offcanvas-title {
     font-family: 'parisienne';
@@ -112,6 +109,14 @@ body {
     margin-bottom: 1rem;
 }
 
+.home .bismillah {
+    text-align: center;
+}
+
+.home .bismillah span {
+    font-size: 50px;
+}
+
 .home p
  {
     font-size: 1.2rem;
@@ -122,10 +127,16 @@ body {
     margin-top: 100px;
 }
 
+.home .couple p {
+    text-align: center;
+}
+
+
 .home .couple h3 {
     font-family: 'italianno';
     font-size: 3.4rem;
     color: var(--pink);
+    text-align: center;
 }
 
 .home .couple img {
@@ -245,7 +256,7 @@ body {
     height: 160px;
     background-color: #ccc;
     position: absolute;
-    left: 43%;
+    left: 44%;
     transform: translateX(-50%);
     border-radius: 50%;
     background-size: cover;
@@ -389,8 +400,8 @@ footer li {
 .gift .gift-card {
     width: 16rem;
     text-align: center;
-    margin-left: 10%;
-    left: -8px;
+    margin-left: 8%;
+    /* left: -8px; */
 }
 
 .gift .gift-card input {
