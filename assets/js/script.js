@@ -19,11 +19,11 @@ const audio = document.getElementById("music");
 let isPlay = false;
 
 function enableScroll() {
-    sessionStorage.setItem('open', "true");
+    sessionStorage.setItem("open", "true");
     hero.style.display= "none";  
     body.classList.remove("noscroll");
     playAudio();
-          
+    document.location.reload(true);
 }
 
 function playAudio() {
