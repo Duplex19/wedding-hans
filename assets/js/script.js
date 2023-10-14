@@ -23,7 +23,7 @@ function enableScroll() {
     hero.style.display= "none";  
     body.classList.remove("noscroll");
     playAudio();
-    document.location.reload(true);
+    document.location.href("index.html");
 }
 
 function playAudio() {

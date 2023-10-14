@@ -264,7 +264,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-color: var(--pink);
+    border-style: ridge;
 }
+
+
+
+
 
 .timeline li .timeline-panel {
     width: 40%;
@@ -333,6 +339,7 @@ body {
     left: -13px;
     right: auto;
 }
+
 
 .gallery {
     background-color: #eedfdf;
