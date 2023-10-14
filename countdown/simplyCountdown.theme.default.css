@@ -105,7 +105,13 @@
     .home .bismillah span {
         font-size: 27px;
     }
- 
+    .gift .gift-card .logo-bank {
+        margin-left: 10px;
+    }
+
+    .gift .gift-card .bca {
+        margin-top: 2rem;
+    }
     
     }
     

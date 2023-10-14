@@ -388,6 +388,7 @@ footer {
     padding: 3rem;
     background-color: var(--pink);
     color: white;
+    
 }
 
 footer a {
@@ -408,9 +409,29 @@ footer li {
 
 .gift .gift-card {
     width: 16rem;
+    min-height: 20rem;
     text-align: center;
     margin-left: 8%;
     /* left: -8px; */
+}
+
+.gift .gift-card .logo-bank {
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    width: 14rem;
+
+    /* position: ; */
+    /* margin-top: 20px; */
+}
+
+.gift .gift-card .bca {
+    margin-top: 3rem;
+}
+
+.gift .gift-card .norek {
+    /* bottom: 2rem; */
+    margin-top: 35px;
 }
 
 .gift .gift-card input {
