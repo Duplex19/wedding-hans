@@ -112,7 +112,10 @@
     .gift .gift-card .bca {
         margin-top: 2rem;
     }
-    
+    .gift .gift-card .mega {
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
     }
     
     /* Mobile */
